@@ -6,7 +6,7 @@
 #include <inttypes.h>
 
 #include <protocol.h>
-#include <cmocka.h>"
+#include <cmocka.h>
 
 #if defined(getc) || defined(putc) || defined(fprintf)
 #error "Not handled yet: redefinition of stdio functions"
